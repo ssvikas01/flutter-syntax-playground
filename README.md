@@ -37,6 +37,8 @@ dart run dart_basics/08_async_await.dart
 
 ```bash
 cd flutter_app
+# Generate platform folders the first time (Android + web).
+flutter create --platforms=android,web .
 flutter pub get
 flutter run
 ```
